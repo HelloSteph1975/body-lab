@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Body Lab</title>
+  <link rel="icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="side" aria-label="Pages">
+    <div class="brand">BODY<span>LAB</span></div>
+    <a href="#/dashboard" data-page="dashboard">Dashboard</a>
+    <a href="#/today" data-page="today">Today</a>
+    <a href="#/meals" data-page="meals">Meals</a>
+    <a href="#/workouts" data-page="workouts">Workouts</a>
+    <a href="#/goals" data-page="goals">Goals</a>
+    <a href="#/history" data-page="history">History</a>
+    <a href="#/journal" data-page="journal">Journal</a>
+    <a href="#/library" data-page="library">Library</a>
+    <a href="#/labs" data-page="labs">Labs &amp; Phases</a>
+    <a href="#/settings" data-page="settings">Settings</a>
+    <a href="#/readme" data-page="readme">Read Me</a>
+  </nav>
+  <main id="main"></main>
+  <button id="quick-note" class="fab" type="button">+ Note</button>
+  <dialog id="modal"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
